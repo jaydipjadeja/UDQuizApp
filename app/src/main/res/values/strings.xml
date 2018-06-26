@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">G1 Test App</string>
+    <!--Q1 string-->
+    <string name="Q1Head">Q1.</string>
+    <string name="Q1">In Ontario, a first conviction for drinking and driving can bring a minimum license suspension of:</string>
+    <string name="A1">6 months</string>
+    <string name="A2">12 months</string>
+    <string name="A3">24 months</string>
+    <string name="A4">48 months</string>
+
+    <!--Q2 string-->
+    <string name="Q2Head">Q2.</string>
+    <string name="Q2">As a level G2 driver, your blood alcohol level must not be over:</string>
+    <string name="A2_1">0.08%</string>
+    <string name="A2_2">0.05%</string>
+    <string name="A2_3">0.02%</string>
+    <string name="A2_4">0.00%</string>
+
+    <!--Q3 string-->
+    <string name="Q3Head">Q3.</string>
+    <string name="Q3">Unless otherwise posted, the maximum speed limit in cities, towns, villages and built up area is:</string>
+    <string name="A3_1">50 km/hr</string>
+    <string name="A3_2">40 km/hr</string>
+    <string name="A3_3">30 km/hr</string>
+    <string name="A3_4">60 km/hr</string>
+
+    <!--Q4 string-->
+    <string name="Q4Head">Q4.</string>
+    <string name="Q4">Demerit points accumulated will remain on your driver’s record for a period of how may years from the date of offence?</string>
+    <string name="A4_1">One year.</string>
+    <string name="A4_2">Three years.</string>
+    <string name="A4_3">Two years.</string>
+    <string name="A4_4">Five years.</string>
+
+    <!--Buttons string-->
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+    <string name="email">Email</string>
+</resources>
