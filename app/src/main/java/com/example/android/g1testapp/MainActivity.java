@@ -19,12 +19,6 @@ public class MainActivity extends AppCompatActivity {
     //Total question for quiz
     private int totalQuestion = 4;
 
-    // Find View by Id
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -145,7 +139,7 @@ public class MainActivity extends AppCompatActivity {
    }
 
     /**
-     * Reset method to clear all field from screen
+     * This method is used to close the app
      * @param view
      */
    public void onClickResetButton(View view){
@@ -167,7 +161,6 @@ public class MainActivity extends AppCompatActivity {
 
            Intent intent = new Intent(Intent.ACTION_SENDTO);
            intent.setData(Uri.parse("mailto:"+ email)); // only email apps should handle this
-//           intent.putExtra(Intent.EXTRA_EMAIL, email);
            intent.putExtra(Intent.EXTRA_SUBJECT, subject);
            intent.putExtra(Intent.EXTRA_TEXT, body);
            if (intent.resolveActivity(getPackageManager()) != null) {
